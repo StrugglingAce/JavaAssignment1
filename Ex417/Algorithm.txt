@@ -1,0 +1,25 @@
+START
+
+Initialize totalMiles to 0
+Initialize totalGallons to 0
+
+WHILE true
+    Prompt user to enter miles driven (or -1 to quit)
+    IF miles == -1
+        EXIT loop
+    Prompt user to enter gallons used
+
+    Calculate tripMPG = miles / gallons (as double)
+    Display tripMPG
+
+    Add miles to totalMiles
+    Add gallons to totalGallons
+
+    Calculate combinedMPG = totalMiles / totalGallons
+    Display combinedMPG
+
+END WHILE
+
+Display final combinedMPG
+
+END

@@ -1,0 +1,19 @@
+START
+
+FOR each customer (repeat 3 times)
+    Prompt and input account number
+    Prompt and input beginning balance
+    Prompt and input total charges
+    Prompt and input total credits
+    Prompt and input credit limit
+
+    Calculate new balance = beginning balance + charges - credits
+
+    Display account number and new balance
+
+    IF new balance > credit limit THEN
+        Display "Credit limit exceeded"
+    END IF
+END FOR
+
+END

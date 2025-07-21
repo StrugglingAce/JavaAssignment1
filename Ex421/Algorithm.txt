@@ -1,0 +1,19 @@
+START
+
+Initialize counter to 1
+Initialize largest to 0
+
+WHILE counter <= 10 DO
+    Prompt user to enter an integer
+    Read number
+
+    IF number > largest THEN
+        Set largest = number
+    END IF
+
+    Increment counter by 1
+END WHILE
+
+Display the largest number
+
+END

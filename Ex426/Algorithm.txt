@@ -1,0 +1,33 @@
+What does the following program print?
+
+ 1  // Exercise 4.26: Mystery3.java
+ 2  public class Mystery3 {
+ 3     public static void main(String[] args) {
+ 4        int row = 10;
+ 5
+ 6        while (row >= 1) {
+ 7           int column = 1;
+ 8
+ 9           while (column <= 10) {
+10             System.out.print(row % 2 == 1 ? "<" : ">");
+11             ++column;
+12           }
+13
+14           --row;
+15           System.out.println();
+16       }
+17     }
+18  }
+
+
+It prints
+>>>>>>>>>>
+<<<<<<<<<<
+>>>>>>>>>>
+<<<<<<<<<<
+>>>>>>>>>>
+<<<<<<<<<<
+>>>>>>>>>>
+<<<<<<<<<<
+>>>>>>>>>>
+<<<<<<<<<<
